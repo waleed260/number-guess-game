@@ -52,10 +52,7 @@ num_guess/
 └── highscore.txt            # High score storage (auto-generated)
 ```
 
-## Requirements
 
-- Python 3.6 or higher
-- Tkinter (usually included with Python installations)
 
 ## License
 
