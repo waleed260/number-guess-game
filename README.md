@@ -40,5 +40,20 @@ A professional number guessing game built with Python and Tkinter featuring mult
 - Each incorrect guess reduces your lives by 1
 - Game ends when you guess correctly or run out of lives
 - Your best score (fewest attempts) is saved between sessions
+## File Structure
 
+```
+num_guess/
+├── src/
+│   └── num_guess/
+│       ├── __init__.py
+│       └── main.py          # Main game file
+└── highscore.txt            # High score storage (auto-generated)
+```
+
+
+
+## License
+
+This project is created for educational purposes and can be used freely.
 
