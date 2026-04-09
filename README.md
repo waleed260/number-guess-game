@@ -27,3 +27,34 @@ A professional number guessing game built with Python and Tkinter featuring mult
 
 
 
+## Controls
+
+- Enter your guess and press Enter to submit
+- Use the dropdown to change difficulty at any time
+- Click "New Game" to start a new game with the same difficulty
+
+## Game Rules
+
+- The computer generates a random number based on the difficulty level
+- Easy: Number between 1-50 with 10 lives
+- Medium: Number between 1-100 with 7 lives
+- Hard: Number between 1-200 with 5 lives
+- Each incorrect guess reduces your lives by 1
+- Game ends when you guess correctly or run out of lives
+- Your best score (fewest attempts) is saved between sessions
+## File Structure
+
+```
+num_guess/
+├── src/
+│   └── num_guess/
+│       ├── __init__.py
+│       └── main.py          # Main game file
+└── highscore.txt            # High score storage (auto-generated)
+```
+
+
+
+## License
+
+This project is created for educational purposes and can be used freely.
